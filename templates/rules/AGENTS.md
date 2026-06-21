@@ -19,3 +19,8 @@
 ## PowerShell Rule: Automatic Variable Constraints
 - **Automatic Variables**: Do not assign values directly to PowerShell automatic variables (e.g., `$PSScriptRoot`, `$ErrorActionPreference`, `$args`).
 - **Custom Local Variables**: Copy automatic variables to local variables (e.g., `$ScriptDir = $PSScriptRoot`) and reference them.
+
+## Continuous Verification & Bug-Checking
+- **Verify Major Actions**: Validate syntax, integrity, and check for regressions immediately after any file edit, script execution, or API operation.
+- **Escape Characters**: Pay close attention to escape sequences (e.g., regex backslashes) when writing code or configuration files.
+- **Proactive Optimization**: Strip trailing spaces, double newlines, and conversational padding to maintain maximum token efficiency.
